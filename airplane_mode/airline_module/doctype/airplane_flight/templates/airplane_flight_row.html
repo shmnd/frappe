@@ -1,0 +1,26 @@
+<div class="card mb-3 shadow-sm" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <div class="card-body">
+        <!-- Airplane / Airline Name -->
+        <h5 class="card-title mb-1" style="font-weight: 600;">
+            {{ doc.airplane |e }}
+        </h5>
+        
+        <!-- Airport Codes Route -->
+        <p class="text-muted mb-2">
+            {{ doc.source_airport_code |e }} &rarr; {{ doc.destination_airport_code |e }}
+        </p>
+        
+        <!-- Departure & Duration Details -->
+
+        <p class="text-secondary mb-3" style="font-size: 0.9rem;">
+            {{ doc.date_of_departure |e }} | {{ doc.time_of_departure |e }} | {{ doc.duration}}
+        </p>
+        
+        <!-- View Flight Link -->
+       <div>
+            <a href="{{ doc.route }}" class="btn btn-primary" style="background-color: #3b82f6; border-color: #3b82f6; padding: 10px 20px; font-weight: 500; border-radius: 6px;">
+                View Flight
+            </a>
+        </div>
+    </div>
+</div>

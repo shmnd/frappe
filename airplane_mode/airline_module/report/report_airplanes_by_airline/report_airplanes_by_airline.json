@@ -1,0 +1,32 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2026-10-22 14:53:31.135847",
+ "disable_prepared_report_automation": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "doctype_to_sync": [],
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"airline\",\"Airplane\"],[\"_aggregate_column\",\"Airplane\"]],\"order_by\":\"`tabAirplane`.`modified` desc\",\"page_length\":20,\"column_widths\":{\"airline\":120,\"_aggregate_column\":200},\"group_by\":{\"group_by\":\"`tabAirplane`.`airline`\",\"aggregate_function\":\"count\"}}",
+ "letter_head": null,
+ "modified": "2026-10-22 14:56:31.877312",
+ "modified_by": "Administrator",
+ "module": "Airline module",
+ "name": "Report Airplanes by Airline",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Airplane",
+ "report_name": "Report Airplanes by Airline",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "snapshot_report": 0,
+ "timeout": 0
+}
